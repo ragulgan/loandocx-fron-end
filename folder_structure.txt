@@ -1,0 +1,29 @@
+LoanDocX/
+├── backend/
+│   ├── server.ts            # Node.js + Express API
+│   ├── db-schema.sql        # MySQL Database Scripts
+│   └── uploads/             # Folder for stored documents
+├── frontend/
+│   ├── index.html           # Entry point
+│   ├── index.tsx            # React mounting
+│   ├── App.tsx              # Main routing & Auth logic
+│   ├── types.ts             # Shared interfaces
+│   ├── metadata.json        # PWA & Permissions metadata
+│   ├── components/
+│   │   ├── Header.tsx       # Top navigation bar
+│   │   └── Sidebar.tsx      # Sidebar navigation
+│   └── pages/
+│       ├── Login.tsx        # Authentication screen
+│       ├── Dashboard.tsx    # Admin/Management overview
+│       ├── LoanCreation.tsx # Agent onboarding form
+│       ├── LoanList.tsx     # Transaction grid
+│       ├── LoanTracking.tsx # Customer tracking utility
+│       ├── UserManagement.tsx # Admin user controls
+│       ├── Earnings.tsx     # Agent ledger view
+│       ├── PasswordChange.tsx # Security settings
+│       └── LoanWorkflowDetail.tsx # Step-by-step workflow manager
+├── mobile/
+│   └── main.dart            # Flutter entry point
+└── docs/
+    ├── api-documentation.md # API specifications
+    └── deployment-guide.md  # DevOps & Docker instructions
